@@ -23,7 +23,7 @@ services:
     - mysql:/var/lib/mysql
 
   frontend:
-    image: shalemdev/frontend:1.0.0
+    image: shalemdev/frontend:1.0.1
     networks:
     - expense
     container_name: frontend
